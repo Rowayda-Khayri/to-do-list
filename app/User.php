@@ -21,7 +21,7 @@ class User extends Moloquent implements
 
     use Notifiable;
 
-    protected $collection = 'users_collection';
+    protected $collection = 'users';
     
     /**
      * The attributes that are mass assignable.
